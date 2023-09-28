@@ -1,25 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Sitio Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal</title>
+    <style>
+        /* Estilos generales */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #FFA500;
+    }
+
+    header {
+        background-color: #2F4F4F;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+
+/* Estilo para la imagen */
+img {
+    width: 250px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+    section {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    /* Estilos específicos para secciones */
+    /* Acerca de Mí */
+    section:nth-child(2) {
+        background-color: #FFFFFF;
+    }
+
+    /* Últimas Publicaciones */
+    section:nth-child(3) {
+        background-color: #FFFFFF;
+    }
+
+    /* Categorías */
+    section:nth-child(4) {
+        background-color: #FFFFFF;
+    }
+
+    /* Archivos */
+    section:nth-child(5) {
+        background-color: #FFFFFF;
+    }
+
+    /* Ejercicio */
+    section:nth-child(6) {
+        background-color: #FFFFFF;
+    }
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>¡Bienvenido a Mi Sitio Web!</h1>
+        <img src="https://images.unsplash.com/photo-1528068185014-7b5420a06692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2pvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+        <h1>Bienvenidos a Mi Blog Personal</h1>
     </header>
-    <nav>
+    <section>
+        <h2>Acerca de Mí</h2>
+        <p>¡Hola! Soy [Tu Nombre], y este es mi espacio personal en la web. Aquí comparto mis pensamientos, experiencias y conocimientos sobre [tu tema principal o interés].</p>
+    </section>
+    <section>
+        <h2>Últimas Publicaciones</h2>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="link-a-tu-publicacion-1.html">Título de la Publicación 1</a></li>
+            <li><a href="link-a-tu-publicacion-2.html">Título de la Publicación 2</a></li>
+            <li><a href="link-a-tu-publicacion-3.html">Título de la Publicación 3</a></li>
         </ul>
-    </nav>
-    <main>
-        <h2>Mi Contenido Principal</h2>
-        <p>Este es el contenido de mi página web.</p>
-    </main>
-    <footer>
-        <p>Derechos de autor © 2023 Mi Sitio Web</p>
-    </footer>
+    </section>
+    <section>
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="categoria-1.html">Categoría 1</a></li>
+            <li><a href="categoria-2.html">Categoría 2</a></li>
+            <li><a href="categoria-3.html">Categoría 3</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Archivos</h2>
+        <ul>
+            <li><a href="archivo-enero-2023.html">Enero 2023</a></li>
+            <li><a href="archivo-diciembre-2022.html">Diciembre 2022</a></li>
+            <li><a href="archivo-noviembre-2022.html">Noviembre 2022</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Ejercicio</h2>
+        <!-- Aquí puedes agregar contenido relacionado con el ejercicio -->
+    </section>
 </body>
 </html>
